@@ -1,0 +1,49 @@
+body,html{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    background-color: rgb(54, 53, 53);
+}
+
+.container{
+    height: 500px;
+    width: 500px;
+    border-style: solid;
+    border-color: rgb(175, 130, 46);
+}
+
+.content{
+    background-color: #ffffff;
+}
+
+.pixelArea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    flex: 1;
+    max-height: 10vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    border: .4rem solid rgb(175, 130, 46);
+    border-radius: .5rem;
+    margin: 3rem;
+    font-size: 1rem;
+    padding: 0rem 1rem;
+    transition: all .07s ease;
+    width: 15rem;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem rgb(175, 130, 46);
+  }
+
+.button:hover {
+    background-color: rgb(109, 109, 20);
+}
